@@ -1,0 +1,101 @@
+.postcontainer{
+    width: 100%;
+}
+.postwrapper{
+    margin: 0 90px;
+    
+}
+.post{
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(42, 42, 42);
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopLeftImg{
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.postTopLeft{
+    display: flex;
+}
+.postTopLeftDetails{
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.postTopLeftDetailsh4{
+    font-size: 15px;
+    cursor: pointer;
+}
+.postTopLeftDetailsSong{
+    font-size: 13px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.postTopRightIcon{
+    cursor: pointer;
+}
+.postCenter{
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 3px;
+}
+.postCenterImg{
+    width: 100%;
+    max-height: 600px;
+}
+.postBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.postBottomLeftIcons{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postBottomLeftIcon{
+    font-size: 25px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.postBottomLeftDetails{
+    width: 170px;   
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.postBottomLeftDetailsInput{
+    font-size: 14px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.postBottomLeftDetailsInput:focus{
+    outline: none;
+}
+.postBottomRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.postBottomRightIcon{
+    font-size: 22px;
+}
+.postBottomRightIconSmile{
+    color: gray;
+}

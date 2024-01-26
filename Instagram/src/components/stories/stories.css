@@ -1,0 +1,38 @@
+.storiescontainer{
+    margin: 10px;
+}
+.storieswrapper{
+    margin: 20px 0;
+}
+.storiesul{
+    width: 600px;
+    display: flex;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-button{
+    background-color: rgb(56, 56, 56);
+}
+.storiesli{
+    list-style-type: none;
+    margin: 0 5px;
+    align-items: center;
+    justify-content: center;
+}
+.profilephoto{
+    display: flex;
+    justify-content: center;
+}
+.storiesimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid red;
+}
+.storiesh1{
+    font-size: 12px;
+    font-weight: 100;
+}

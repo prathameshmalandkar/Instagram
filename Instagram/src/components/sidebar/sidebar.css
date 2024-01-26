@@ -1,0 +1,53 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.sidebarcontainer{
+    padding: 20px;
+    border-right: 2px solid rgb(22, 22, 22);
+    height: 100%;
+    position: sticky;
+}
+.sidebartopLogo{
+    width: 100px;
+    height: 30px;
+    margin: 20px 0 0 10px;
+}
+.sidebarcenter{
+    margin-top: 40px;
+}
+.sidebarcenter>ul{
+    list-style-type: none;
+}
+.sidebarcenterli{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: px;
+    border-radius: 10px;
+}
+.sidebarcenterli:hover{
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
+.sidebarIcons{
+    position: relative;
+    display: flex;
+    align-items: center !important;
+}
+.sidebarIconsMessage{
+    font-size: 22px;
+}
+.sidebarH3{
+    font-size: 15px;
+}
+.sidebarprofileImg{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sidebarbottom{
+    margin-top: 100px;
+}

@@ -1,0 +1,17 @@
+.homepage{
+    display: flex;
+    position: relative;
+    color: white;
+    background-color: black;
+    height: fit-content;
+    position: relative;
+}
+.homesidebar{
+    flex: 2;
+}
+.homecenter{
+    flex: 6;
+}
+.homerightbar{
+    flex: 4;
+}

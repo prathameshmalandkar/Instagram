@@ -1,0 +1,107 @@
+.rightbarContainer{
+    width: 280px;
+    margin-top: 25px;
+}
+.rightbarProfile{
+    display: flex;
+    align-items: center;
+}
+.rightbarProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.rightbarProfileDetails{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightbarProfileDetailsh3{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.rightbarProfileDetailsh4{
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+}
+.rightbarProfileDetailsBtn{
+    color: #0095f6;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.rightbarsuggesition{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.rightbarsuggesitionh3{
+    font-size: 14px;
+    color: rgb(163, 163, 163);
+}
+.rightbarsuggesitionBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.rightbarsuggesitionList{
+    margin-top: 20px;
+}
+.rightbarsuggesitionListli{
+    margin: 10px 0;
+    list-style-type: none;
+}
+.rightbarsuggesition{
+    display: flex;
+    align-items: center;
+}
+.rightbarsuggesitionImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.rightbarsuggesitionDetails{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightbarsuggesitionDetailsh3{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.rightbarsuggesitionDetailsh4{
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+}
+.rightbarsuggesitionDetailsBtn{
+    color: #0095f6;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.rightbarsuggesition{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.rightbarsuggesitionh3{
+    font-size: 14px;
+    color: rgb(163, 163, 163);
+}
+.rightbarsuggesitionBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
